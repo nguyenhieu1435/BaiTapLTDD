@@ -1,11 +1,11 @@
 console.log("\nBegin Challenger 1")
 
 const calcBMI = (mass, height) => {
-    return (mass / (height ** 2)).toFixed(1);
+    return (mass / (height ** 2)).toFixed(1) - 0;
 }
 
 const calcBMI2 = (mass, height) => {
-    return (mass / (Math.pow(height, 2))).toFixed(1);
+    return Number((mass / (Math.pow(height, 2))).toFixed(1));
 }
 
 const MarkInfo = {

@@ -50,7 +50,6 @@ const displayResults = function (type) {
 
 }
 
-
 while(!isStop){
     registerNewAnswer(poll);
 }

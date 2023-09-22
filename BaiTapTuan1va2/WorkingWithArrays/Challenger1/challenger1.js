@@ -3,7 +3,7 @@ const JuliadArr = [3, 5, 2, 12, 7];
 const KateArr = [4, 1, 15, 8, 4];
 
 function checkDogs(dogsJulia, dogsKate) {
-    let newDogsJulia = [...dogsJulia];
+    let newDogsJulia = dogsJulia;
     newDogsJulia = newDogsJulia.slice(1, newDogsJulia.length - 2);
 
     const dogs = [...newDogsJulia, ...dogsKate];
